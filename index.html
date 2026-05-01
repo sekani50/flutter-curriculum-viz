@@ -202,6 +202,7 @@
                     <span class="section-number">05</span>
                     <h2>Day-by-Day Journey</h2>
                 </div>
+                <p class="section-desc">Click on any session item to see detailed explanations and code snippets for trainees.</p>
 
                 <div class="tabs-container">
                     <div class="tabs-header">
@@ -265,6 +266,18 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modalTitle">Session Details</h3>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
