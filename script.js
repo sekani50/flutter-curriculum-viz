@@ -1,4 +1,26 @@
 const detailsData = {
+    "Introduction to Software Architecture.": {
+        title: "Software Architecture 101",
+        explanation: "Architecture is the blueprint of your app. It defines how different parts (UI, Logic, and Data) talk to each other. For beginners, think of it as organizing your code so it doesn't become a 'spaghetti' mess.",
+        code: `// Simple Architecture Concept:
+// 1. UI (User Interface) - What the user sees.
+// 2. Business Logic - The 'brain' (calculations, rules).
+// 3. Data - Where information is stored.
+
+// Separation of concerns makes apps easier to fix and grow!`
+    },
+    "Thinking in Algorithms: Logic & Problem Solving.": {
+        title: "Algorithmic Thinking",
+        explanation: "An algorithm is just a step-by-step set of instructions to solve a problem. Before writing code, you should be able to explain the solution in plain English (pseudocode).",
+        code: `// Algorithm for making Tea:
+// 1. Boil water.
+// 2. Put tea bag in cup.
+// 3. Pour hot water into cup.
+// 4. Wait 3 minutes.
+// 5. Remove tea bag and add sugar.
+
+// In code, this translates to functions and logic!`
+    },
     "What is Dart? Why Flutter uses it.": {
         title: "Introduction to Dart",
         explanation: "Dart is a client-optimized language for fast apps on any platform. Flutter uses Dart because of its JIT (Just-in-Time) compilation for hot reload and AOT (Ahead-of-Time) compilation for production performance.",
@@ -710,9 +732,11 @@ const daysData = {
         sessions: [
             {
                 time: "Session 1 (09:00 – 11:00 AM)",
-                heading: "Welcome & Intro to Dart",
-                description: "Getting started with the Dart language using DartPad (no installation required for this session).",
+                heading: "Software Design & Intro to Dart",
+                description: "Getting started with architectural concepts and the Dart language using DartPad.",
                 bullets: [
+                    "Introduction to Software Architecture.",
+                    "Thinking in Algorithms: Logic & Problem Solving.",
                     "What is Dart? Why Flutter uses it.",
                     "Variables and Data Types (String, int, double, bool).",
                     "Basic Logic: if/else statements and simple math."
@@ -739,7 +763,7 @@ const daysData = {
                 ]
             }
         ],
-        deliverable: "Every participant has written Dart code in DartPad and understands the basic structure of a Flutter layout."
+        deliverable: "Every participant understands basic software architecture, algorithmic thinking, and has written Dart code in DartPad."
     },
     2: {
         title: "UI Mastery & AI Productivity",
@@ -913,10 +937,7 @@ function showModal(bulletText) {
     }
 
     bodyHtml += `
-        <div class="explanation-section">
-            <h5>Facilitator Note</h5>
-            <p>Ensure trainees type this out rather than copy-pasting to build muscle memory.</p>
-        </div>
+      
     `;
 
     modalBody.innerHTML = bodyHtml;

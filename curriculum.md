@@ -44,7 +44,9 @@ Participants MUST complete these before Day 1. Follow the specific video guides 
 ## 04. Day-by-Day Journey
 
 ### Day 1: Foundations — Dart & Flutter Intro (DartPad)
-*   **Session 1: Welcome & Intro to Dart**
+*   **Session 1: Software Design & Intro to Dart**
+    *   Introduction to Software Architecture.
+    *   Thinking in Algorithms: Logic & Problem Solving.
     *   Getting started with DartPad.
     *   Variables, Data Types (String, int, double, bool).
     *   Basic Logic: if/else statements.
